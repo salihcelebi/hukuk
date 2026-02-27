@@ -31,5 +31,16 @@ class Veritabani {
             self::$pdo = new PDO($dsn, $user, $pass, $options);
         }
         return self::$pdo;
+
+        /**
+     * getInstance() eski model çağrılarını desteklemek için alias.
+     * Kodlama Talimatı: Singleton DB bağlantısı; getInstance alias eklendi.
+     *
+     * @return PDO
+     */
+    public static function getInstance(): PDO
+    {
+        return self::baglanti();
     }
+}
 }
