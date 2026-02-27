@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Sayfa Bulunamadı</title>
+    <title>Page Not Found</title>
 </head>
 <body>
-    <h1>404 - Sayfa Bulunamadı</h1>
-    <p>Üzgünüz, aradığınız sayfa bulunamadı.</p>
-    <?php
-    // Bu 404 görünümü herhangi bir rota bulunamadığında gösterilir.
-    // Kullanıcıları anasayfaya dönmek için bir bağlantı sunar.
-    ?>
-    <a href="/">Anasayfaya dön</a>
+<h1>404 - Page Not Found</h1>
+<p>Sorry, the page you are looking for could not be found.</p>
+<?php
+// 404 view displayed when no matching route is found.
+// Provides a link back to the home page.
+// Arayuz Talimati: Public UI Ingilizce olmalidir [434203738162501]
+?>
+<a href="/">Return to homepage</a>
 </body>
-</html>
+<</html>
