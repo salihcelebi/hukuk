@@ -1,4 +1,4 @@
-
+kodlama talimatları
 AJX, AŞAĞIDAKİ TALİMATLARI EKSİKSİZ UYGULA. BU REVİZYON, “30 MADDELİK HATA KAÇIRMAMA POLİTİKASI”NA TAM UYUMLUDUR.
 KURAL: Public UI %100 İngilizce. Kod tabanı + admin panel + dosya/klasör adları Türkçe (ASCII-only).
 
@@ -411,23 +411,4 @@ AJX, deploy öncesi şu checklist’i tek tek doğrula:
 - “No naked call” ihlali kalmadı mı?
 - Public UI metinleri %100 İngilizce mi, panel %100 Türkçe mi?
 
-BİTTİ.
-```
-
-```text id="revize-02"
-AJX, NOT: Bu revizyonu uygularken “kodu daha kaliteli yaz” hedefi için şu iki ek kuralı da getir:
-
-1) Her modülde “Sözleşme (contract) dokümanı” üret:
-   - Girdi doğrulama kuralları
-   - Yetki gereksinimi
-   - Hata kodları + kullanıcı mesajı (EN) + panel mesajı (TR)
-   - SEO davranışı (index/noindex/canonical)
-
-2) Her kritik akışın “başarı + başarısızlık” senaryosunu yaz:
-   - Lead gönder: DB ok, DB fail, mail fail, rate limit fail
-   - Makale göster: published, draft, yok
-   - Landing filtre: whitelist dışı parametre
-   - Review: email verify, hold, abuse report
-
-Bu iki kuralı her commit’te README/CHANGELOG’a kısa not düş.
-```
+2 . PARÇA 
